@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFDAE9AB26EEE11E0074961C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDAE9AA26EEE11E0074961C /* AppDelegate.m */; };
+		BFDAE9AE26EEE11E0074961C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDAE9AD26EEE11E0074961C /* SceneDelegate.m */; };
+		BFDAE9B126EEE11E0074961C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDAE9B026EEE11E0074961C /* ViewController.m */; };
+		BFDAE9B426EEE11E0074961C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDAE9B226EEE11E0074961C /* Main.storyboard */; };
+		BFDAE9B626EEE1220074961C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDAE9B526EEE1220074961C /* Assets.xcassets */; };
+		BFDAE9B926EEE1220074961C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDAE9B726EEE1220074961C /* LaunchScreen.storyboard */; };
+		BFDAE9BC26EEE1220074961C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDAE9BB26EEE1220074961C /* main.m */; };
+		BFDAE9C526EEE1F60074961C /* HPTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDAE9C426EEE1F60074961C /* HPTimerViewController.m */; };
+		BFDAE9CA26EF05B50074961C /* NSTimer+HPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDAE9C926EF05B50074961C /* NSTimer+HPAdditions.m */; };
+		BFDAE9CE26EF0A900074961C /* HPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDAE9CD26EF0A900074961C /* HPProxy.m */; };
+		BFDAE9D226EF12D10074961C /* HPTimerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDAE9D126EF12D10074961C /* HPTimerWrapper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFDAE9A626EEE11E0074961C /* TimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFDAE9A926EEE11E0074961C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFDAE9AA26EEE11E0074961C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFDAE9AC26EEE11E0074961C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BFDAE9AD26EEE11E0074961C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BFDAE9AF26EEE11E0074961C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFDAE9B026EEE11E0074961C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFDAE9B326EEE11E0074961C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFDAE9B526EEE1220074961C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFDAE9B826EEE1220074961C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFDAE9BA26EEE1220074961C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFDAE9BB26EEE1220074961C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFDAE9C326EEE1F60074961C /* HPTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPTimerViewController.h; sourceTree = "<group>"; };
+		BFDAE9C426EEE1F60074961C /* HPTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPTimerViewController.m; sourceTree = "<group>"; };
+		BFDAE9C826EF05B50074961C /* NSTimer+HPAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HPAdditions.h"; sourceTree = "<group>"; };
+		BFDAE9C926EF05B50074961C /* NSTimer+HPAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HPAdditions.m"; sourceTree = "<group>"; };
+		BFDAE9CC26EF0A8F0074961C /* HPProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPProxy.h; sourceTree = "<group>"; };
+		BFDAE9CD26EF0A900074961C /* HPProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPProxy.m; sourceTree = "<group>"; };
+		BFDAE9D026EF12D10074961C /* HPTimerWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPTimerWrapper.h; sourceTree = "<group>"; };
+		BFDAE9D126EF12D10074961C /* HPTimerWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPTimerWrapper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFDAE9A326EEE11E0074961C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFDAE99D26EEE11D0074961C = {
+			isa = PBXGroup;
+			children = (
+				BFDAE9A826EEE11E0074961C /* TimerDemo */,
+				BFDAE9A726EEE11E0074961C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFDAE9A726EEE11E0074961C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFDAE9A626EEE11E0074961C /* TimerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFDAE9A826EEE11E0074961C /* TimerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BFDAE9A926EEE11E0074961C /* AppDelegate.h */,
+				BFDAE9AA26EEE11E0074961C /* AppDelegate.m */,
+				BFDAE9AC26EEE11E0074961C /* SceneDelegate.h */,
+				BFDAE9AD26EEE11E0074961C /* SceneDelegate.m */,
+				BFDAE9AF26EEE11E0074961C /* ViewController.h */,
+				BFDAE9B026EEE11E0074961C /* ViewController.m */,
+				BFDAE9C326EEE1F60074961C /* HPTimerViewController.h */,
+				BFDAE9C426EEE1F60074961C /* HPTimerViewController.m */,
+				BFDAE9CC26EF0A8F0074961C /* HPProxy.h */,
+				BFDAE9CD26EF0A900074961C /* HPProxy.m */,
+				BFDAE9D026EF12D10074961C /* HPTimerWrapper.h */,
+				BFDAE9D126EF12D10074961C /* HPTimerWrapper.m */,
+				BFDAE9C826EF05B50074961C /* NSTimer+HPAdditions.h */,
+				BFDAE9C926EF05B50074961C /* NSTimer+HPAdditions.m */,
+				BFDAE9B226EEE11E0074961C /* Main.storyboard */,
+				BFDAE9B526EEE1220074961C /* Assets.xcassets */,
+				BFDAE9B726EEE1220074961C /* LaunchScreen.storyboard */,
+				BFDAE9BA26EEE1220074961C /* Info.plist */,
+				BFDAE9BB26EEE1220074961C /* main.m */,
+			);
+			path = TimerDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFDAE9A526EEE11E0074961C /* TimerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFDAE9BF26EEE1220074961C /* Build configuration list for PBXNativeTarget "TimerDemo" */;
+			buildPhases = (
+				BFDAE9A226EEE11E0074961C /* Sources */,
+				BFDAE9A326EEE11E0074961C /* Frameworks */,
+				BFDAE9A426EEE11E0074961C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimerDemo;
+			productName = TimerDemo;
+			productReference = BFDAE9A626EEE11E0074961C /* TimerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDAE99E26EEE11D0074961C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BFDAE9A526EEE11E0074961C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = BFDAE9A126EEE11D0074961C /* Build configuration list for PBXProject "TimerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFDAE99D26EEE11D0074961C;
+			productRefGroup = BFDAE9A726EEE11E0074961C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFDAE9A526EEE11E0074961C /* TimerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFDAE9A426EEE11E0074961C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDAE9B926EEE1220074961C /* LaunchScreen.storyboard in Resources */,
+				BFDAE9B626EEE1220074961C /* Assets.xcassets in Resources */,
+				BFDAE9B426EEE11E0074961C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFDAE9A226EEE11E0074961C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDAE9C526EEE1F60074961C /* HPTimerViewController.m in Sources */,
+				BFDAE9B126EEE11E0074961C /* ViewController.m in Sources */,
+				BFDAE9AB26EEE11E0074961C /* AppDelegate.m in Sources */,
+				BFDAE9BC26EEE1220074961C /* main.m in Sources */,
+				BFDAE9CA26EF05B50074961C /* NSTimer+HPAdditions.m in Sources */,
+				BFDAE9D226EF12D10074961C /* HPTimerWrapper.m in Sources */,
+				BFDAE9CE26EF0A900074961C /* HPProxy.m in Sources */,
+				BFDAE9AE26EEE11E0074961C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFDAE9B226EEE11E0074961C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFDAE9B326EEE11E0074961C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFDAE9B726EEE1220074961C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFDAE9B826EEE1220074961C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFDAE9BD26EEE1220074961C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFDAE9BE26EEE1220074961C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFDAE9C026EEE1220074961C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guaizai.TimerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFDAE9C126EEE1220074961C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guaizai.TimerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFDAE9A126EEE11D0074961C /* Build configuration list for PBXProject "TimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDAE9BD26EEE1220074961C /* Debug */,
+				BFDAE9BE26EEE1220074961C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFDAE9BF26EEE1220074961C /* Build configuration list for PBXNativeTarget "TimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDAE9C026EEE1220074961C /* Debug */,
+				BFDAE9C126EEE1220074961C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDAE99E26EEE11D0074961C /* Project object */;
+}
